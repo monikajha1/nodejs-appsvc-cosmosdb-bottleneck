@@ -11,11 +11,11 @@ pool:
 
 variables:
   webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
-  location: 'EAST US'
+  serviceConnection: 'KMSPLoadTest'
+  azureSubscriptionId: 'dfa259d7-270a-46b7-b73d-d659947dc8be'
+  loadTestResource: 'KMSPLoadTest'
+  loadTestResourceGroup: 'MonikaLoadTest-rg'
+  location: 'EAST US2'
 
 
 stages:
